@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Mon Portfolio</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">À propos</a></li>
+          <li><a href="#formation">Parcours</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projets</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Azek Mohamed</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+     <!--    <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">À propos</a></li>
+          <li><a href="#formation" onclick="toggleMenu()">Parcours</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Compétences</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projets</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          
+        </div> -->
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/Capture d'écran 2024-04-27 183447.png" alt="profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Bonjour, Je suis</p>
+        <h1 class="title">Azek Mohamed
+        </h1>
+       
+        <img src="assets/632b0a5aaf13b1f3aac23008_data-science-modified.png" alt="Data Science">
+        
+        <p class="section__text__p2">Data Scientist</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Mohamed_AZEK_CV.pdf')"
+          >
+            Télecharger mon CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="Mon profile LinkedIn"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/mohamed-azek-b66a01255/'"
+          />
+          
+        </div>
+      </div>
+    </section>
+    
+    <section id="about">
+      
+      <h1 class="title">À propos</h1>
+      <div class="section-container">
+        
+        <div class="about-details-container">
+          <div class="text-container">
+            <p>
+              Actuellement en 2ème année de Bachelor en Science des Données à l'IUT de Paris - Rives de Seine, 
+             j'effectue mon Bachelor en alternance chez KPMG au service Digital Analytics.
+             Chez KPMG, je traite et analyse des données comptables pour les auditeurs. 
+             Grâce à cette formation et cette alternance, je découvre l'univers de la Data, 
+             un milieu passionnant en pleine expansion et je développe mes connaissances en étude de données et en Data visualisation.
+
+            </p>
+          </div>
+          <div class="about-containers">
+            
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Passion</h3>
+              <p>J'adore voyager, découvrir de nouvelles cultures et comprendre la diversité du monde.
+                La musique et les films me captivent par leur créativité et leur expression personnelle, me faisant apprécier l'art sous toutes ses formes.
+                Et j'ai également une passion pour l'automobile et la moto. Conduire sur la route me procure une sensation de liberté et d'aventure incomparable.
+                </p>
+                
+            </div>
+          </div>
+          
+          
+        </div>
+      </div>
+     
+    </section>
+    
+    <section id="formation">
+      
+      <h2 class="title">Parcours</h2>
+      <br>
+      <br>
+      <div class="section-container2">
+        
+        <ul>
+          <li style="--accent-color:#274C77">
+              <div class="date">2022 - 2025</div>
+              <div class="title">BUT - Sciences des données</div>
+              <div class="descr">Université Paris Cité - IUT Paris Rives de Seine, Paris 16, France</div>
+          </li>
+          <li style="--accent-color:#6096BA">
+              <div class="date">2019 - 2022</div>
+              <div class="title">Baccalauréat Générale - Mathématiques et Physique Chimie</div>
+              <div class="descr">Lycée Germaine Thillion -  Le Bourget, France</div>
+          </li>
+          
+        </ul>
+       
+      </div>
+      <div class="about-containers">
+            
+       <div class="details-container2">
+        <img
+          src="./assets/education.png"
+          alt="Education icon"
+          class="icon"
+        />
+        <h3>Experiences professionel</h3>
+        <p>Assistant technique chez KPMG (2023-2025) 
+          La DéFense, France
+          
+          Actuellement en apprentissage chez KPMG, connu à l'échelle mondiale pour son expertise en audit, 
+          comptabilité, conseil et assistance juridique, elle possède un service Digital Analytics. 
+          Ce secteur se concentre sur l'analyse des données numériques pour simplifier le travail des auditeurs. 
+          Au sein du service Digital Analytics, je réalise des solutions digital afin de fournir des datas visualisation 
+          à l’équite d’audits. 
+          
+          </p>
+      </div>
+          
+      </body>
+      </html>
+      
+          
+        </div>
+      </div>
+     
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Voici mes</p>
+      <h1 class="title">Compétences</h1>
+      
+      <div class="experience-details-container">
+        
+        <div class="about-containers">
+          
+          <div class="details-container">
+            
+            <h2 class="experience-sub-title"></h2>
+            
+            <div class="article-container">
+              <article>
+                
+                <h2>Programmation:</h2>
+               
+              </article>
+              
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  
+                </div>
+              </article>
+              
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL</h3>
+                  
+                </div>
+              </article>
+            </div>
+            
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title"></h2>
+            <div class="article-container">
+              <article>
+                
+                
+                  <h2>Statistiques et Analyse de Données:</h2>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>R</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Statistiques Descriptives et Inférentielles</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Probabilités</h3>
+                </div>
+              </article>
+              
+              
+              
+            </div>
+          </div>
+          
+          <div class="details-container">
+            <h2 class="experience-sub-title"></h2>
+            <div class="article-container">
+              <article>
+                <h2>Business Intelligence et Rapports:</h2>
+               
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Power BI</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Excel</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Tableau</h3>
+                </div>
+              </article>
+              
+              
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title"></h2>
+            <div class="article-container">
+              <article>
+                <h2>Gestion de Projet et Méthodologies:</h2>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Gestion de Projets</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Connaissances en Economie et en Droit</h3>
+                </div>
+              </article>
+              
+              
+            </div>
+          </div>
+        </div>
+      </div>
+     
+      
+      
+      
+      <div class="about-containers0">
+            
+        <div class="details-container">
+          <img src="assets/expe.png" alt="">
+         
+            
+        </div>
+      </div>
+    </section>
+   
+    <section id="projects">
+      <p class="section__text__p1">Naviguez dans mes</p>
+      <h1 class="title">Projets</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <h2>Projet universitaires</h2> 
+
+              <h3>Projet d'Analyse de la Production d'Électricité à partir du Petrol Coke</h3>
+
+              <b>Objectif:</b> Étudier les tendances d'utilisation du Gaz naturel comme source d'énergie aux États-Unis de 2001 à 2022 
+              pour guider les décisions en matière de politique énergétique. (Travail de groupe à 2)
+
+              <b>Méthodologies et outils utilisés </b>
+
+              <b>Statistiques :</b> Moyennes mobiles, régression, et décomposition saisonnière.
+              <b>Logiciel :</b> R avec les packages ggplot2 pour la visualisation et forecast pour les prédictions
+
+              <b>Résultats:</b>
+
+              Identification d'une tendance à la hausse de l'utilisation du Gaz naturel
+
+              <b>Impact :</b> Les résultats fournissent des insights pour des alternatives énergétiques plus durables et 
+              influencent les pratiques de durabilité.
+
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('./assets/Rapport Série temporelle.pdf')"
+              >
+                Rapport
+             
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+
+              <h2>Projet professionel</h2> 
+              <div class="article-container">
+                <img
+                  src="./assets/Sans titre.png"
+                  alt=""
+                  class=""
+                />
+              </div>
+              
+              
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('./assets/Projet2.pdf')"
+                
+              >
+                Rapport
+              </button>
+              
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <h2>Projet universitaires</h2> 
+
+              <h3>Projet de Complément de la Base de Données SIRENE</h3>
+
+              <b>Objectif:</b> Enrichir la base de données SIRENE avec des coordonnées géographiques et des détails 
+              supplémentaires sur les établissements à partir de Google Maps. (Travail de groupe à 2)
+
+
+              <b>Méthodologies et outils utilisés</b>
+
+              <b>Préparation des données:</b> Utilisation de Python et pandas pour importer, nettoyer, 
+              et transformer les données du fichier StockEtablissement.
+
+              <b>Collecte de données géographiques:</b> Utilisation des API pour obtenir des coordonnées géographiques 
+              et intégration dans le DataFrame
+              
+              <b>Extraction d'informations via Google Maps :</b> Emploi de Selenium et Chromedriver pour naviguer sur Google Maps 
+              et extraire des détails complémentaires.
+              <b>Résultats:</b>
+
+              Le projet a permis d'enrichir significativement la base de données SIRENE, 
+              ajoutant des coordonnées géographiques et des informations web aux entrées existantes.
+
+             
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('./assets/Rapport Collecte Web.pdf')"
+              >
+                Rapport
+              </button>
+          
+
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Restons en contact</p>
+      <h1 class="title">Contactez moi</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com"><b>mohamed.azk@outlook.fr</b></a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/mohamed-azek-b66a01255/"><b>LinkedIn</b></a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/image_2024-04-30_174250777-removebg-preview.png"
+            alt="Contact"
+            class="icon contact-icon"
+          />
+          <p><a href="tel:+33 7 62 05 60 35">07 62 05 60 35</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#formation">Parcours</a></li>
+            <li><a href="#experience">Compétences</a></li>
+            <li><a href="#projects">Projets</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Azek Mohamed. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
